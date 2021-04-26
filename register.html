@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Círculo de élite</title>
+	<meta charset="utf-8">
+	<!-- Icons -->
+	<link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+	<!-- Tailwind -->
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<!-- Header -->
+	<header class="text-gray-600 body-font">
+		<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+			<a href="index.html" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+				<i class="text-2xl text-gray-500 p-2 bg-yellow-200 rounded-full lni lni-consulting"></i>
+				<span class="ml-3 text-xl">Círculo de élite</span>
+			</a>
+			<!-- Menu -->
+			<nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+				<a href="blog.html" class="mr-5 hover:text-gray-900">Blog</a>
+				<a href="about.html" class="mr-5 hover:text-gray-900">Nosotros</a>
+				<a href="pricing.html" class="mr-5 hover:text-gray-900">Precios</a>
+				<a href="contact.html" class="mr-5 hover:text-gray-900">Contacto</a>
+			</nav>
+			<!-- Menu -->
+
+			<a href="login.html" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" href="">Ingresar <i class="ml-2 lni lni-arrow-right"></i></a>
+		</div>
+	</header>
+	<!-- /Header -->
+
+	<!-- Content -->
+	<section class="text-gray-600 body-font relative">
+	   <div class="container px-5 py-24 mx-auto">
+	      <div class="flex flex-col text-center w-full mb-12">
+	         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Registrarse</h1>
+	         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">¡Genial! Harás parte de una gran comunidad.</p>
+	      </div>
+	      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+	         <div class="flex flex-wrap -m-2">
+	            <div class="p-2 w-1/2">
+	               <div class="relative">
+	                  <label for="name" class="leading-7 text-sm text-gray-600">Nombre completo</label>
+	                  <input
+	                     type="text"
+	                     id="name"
+	                     name="name"
+	                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-500 focus:bg-white focus:ring-2 focus:ring-gray-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+	                  />
+	               </div>
+	            </div>
+	            <div class="p-2 w-1/2">
+	               <div class="relative">
+	                  <label for="email" class="leading-7 text-sm text-gray-600">Correo electrónico</label>
+	                  <input
+	                     type="email"
+	                     id="email"
+	                     name="email"
+	                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-500 focus:bg-white focus:ring-2 focus:ring-gray-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+	                  />
+	               </div>
+	            </div>
+	            <div class="p-2 w-1/2">
+	               <div class="relative">
+	                  <label for="password" class="leading-7 text-sm text-gray-600">Contraseña</label>
+	                  <input
+	                     type="password"
+	                     id="password"
+	                     name="password"
+	                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-500 focus:bg-white focus:ring-2 focus:ring-gray-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+	                  />
+	               </div>
+	            </div>
+
+	            <div class="p-2 w-1/2">
+	               <div class="relative">
+	                  <label for="password" class="leading-7 text-sm text-gray-600">Repite la contraseña</label>
+	                  <input
+	                     type="password"
+	                     id="password"
+	                     name="password"
+	                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-500 focus:bg-white focus:ring-2 focus:ring-gray-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+	                  />
+	               </div>
+	            </div>
+	            <div class="p-2 mt-10 w-full text-center">
+	            	<a href="register.html" class="mb-10">
+	            		¿Ya tienes una cuenta? Inicia sesión
+	            	</a>
+	            </div>
+	            <div class="p-2 w-full text-center">
+	               <button class="flex mx-auto text-white bg-gray-900 border-0 py-2 px-8 focus:outline-none hover:bg-gray-800 rounded text-lg">Registrarse</button>
+	            </div>
+	            <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+	               <p class="leading-normal my-5">
+	                  Síguenos
+	               </p>
+	               <span class="inline-flex">
+	               	<a class="text-gray-500" href="https://instagram.com/bepro.digital" target="_blank">
+								<i class="text-xl lni lni-instagram"></i>
+							</a>
+							<a class="ml-3 text-gray-500" href="https://www.youtube.com/c/BeProDigital" target="_blank" class="ml-2 text-gray-500">
+								<i class="text-xl lni lni-youtube"></i>
+							</a>
+	               </span>
+	            </div>
+	         </div>
+	      </div>
+	   </div>
+	</section>
+
+	<!-- /Content -->
+
+	<!-- Footer -->
+	<hr>
+	<footer class="text-gray-600 body-font">
+	   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+	      <a href="index.html" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+	         <i class="text-2xl text-gray-500 p-2 bg-yellow-200 rounded-full lni lni-consulting"></i>
+				<span class="ml-3 text-xl">Círculo de élite</span>
+	      </a>
+	      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+	         © 2021 Derechos reservados, un producto de <a href="https://bepro.digital" target="_blank"><b>BePro</b></a> | Círculo de élite —
+	         <a href="https://instagram.com/circulodeelite" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@circulodeelite</a>
+	      </p>
+	      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+	         <a class="text-gray-500" href="https://instagram.com/bepro.digital" target="_blank">
+	            <i class="text-xl lni lni-instagram"></i>
+	         </a>
+	         <a class="ml-3 text-gray-500" href="https://instagram.com/circulodeelite" target="_blank">
+	            <i class="text-xl lni lni-instagram-filled"></i>
+	         </a>
+	         <a class="ml-3 text-gray-500" href="https://bepro.digital" target="_blank" class="text-gray-500">
+               <i class="text-xl lni lni-world"></i>
+            </a>
+            <a class="ml-3 text-gray-500" href="https://www.youtube.com/c/BeProDigital" target="_blank" class="ml-2 text-gray-500">
+               <i class="text-xl lni lni-youtube"></i>
+            </a>
+	      </span>
+	   </div>
+	</footer>
+	<!-- /Footer -->
+</body>
+</html>
